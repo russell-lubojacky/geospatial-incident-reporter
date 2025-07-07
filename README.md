@@ -44,16 +44,15 @@ A full-stack open-source web application that allows users to report, visualize,
 > - Notifies the park's maintenance system (via webhook or API)
 
 ## 📂 Project Structure 
-```bash 
+```
 geospatial-incident-reporter/ 
 ├── client/ # SvelteKit frontend 
 ├── server/ # Node.js API 
 ├── ai-service/ # Python FastAPI for AI models 
-├── database/ # PostgreSQL schema and migrations 
+├── database/ # PostgreSQL schema and migrations
+├── workflows/  
 ├── docs/ # Architecture diagrams, API specs 
 ├── .github/ # GitHub Actions workflows 
-│ 
-└── workflows/ 
 └── docker-compose.yml 
 ```
 
@@ -82,3 +81,4 @@ Pull requests are welcome! Please open an issue first to discuss any major chang
 ## 📄 License
 MIT
 
+> Disclaimer: This is an independent project for educational and demonstration purposes. It is not affiliated with or endorsed by any government agency.
